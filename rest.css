@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 3rem;
+    font-family: "Playwrite GB J", cursive;
+    text-align: center;
+    background-color: #D89D6A;
+}
+
+
+nav{
+    border: 7px groove #96ADC8;
+    border-radius: 4rem;
+    margin: 0 auto 1rem;
+    max-width: 700px;
+    font-size: 1.7em;
+}
+
+h1{
+    background-color: #96ADC8;
+    color: hsl(89, 100%, 84%);
+    border-radius: 3rem 3rem 0 0;
+}
+h2{
+    border-top: solid #5b6d81;
+}
+
+ul{
+    
+   list-style-type: none;
+   line-height: 2.5em;
+}
+ 
+li{
+    border-top: solid #96ADC8;
+}
+
+li a{
+    text-decoration: none;
+    color:hsl(61, 97%, 66%) ;
+    display: block;
+    
+}
+
+li a:hover{
+    background-color: brown;
+}
+
+li:last-child a{
+    border-radius: 0 0 3rem 3rem;
+}
+
